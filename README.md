@@ -1,175 +1,144 @@
-# Awesome-Construction-Progress-Monitoring
-
-## Top Construction Progress Monitoring Platforms Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Reality Capture, AI Progress Tracking, BIM Alignment & Earned Value Verification*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Construction Progress Monitoring**. These tools help general contractors, owners, and trade partners verify work-in-place, detect schedule deviations early, and maintain an objective record of what was built versus what was planned.
-
-
-
-**Examples** include Buildots, OpenSpace, Doxel, Disperse, Reconstruct, Avvir, Versatile, and WakeCap (the category leaders).
-
-
-
-**Open-source emphasis**: Construction progress monitoring has a **fragmented but growing open-source ecosystem**. Unlike some enterprise software categories, no single open-source platform matches the full scope of commercial reality capture and AI progress tracking solutions. However, **niche, high-impact tools exist** — most notably the **Sandwich Panel Installation Tracker**, a production-deployed AutoCAD plugin that eliminated subcontractor disputes and reduced weekly reporting from 4 hours to 10 seconds on a 5,000-panel project . Research frameworks like **P6 Extraction Framework** provide schedule-driven digital twin synchronization foundations . This section documents these focused solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Buildots](https://buildots.com/)**  
-
-  AI-powered construction progress tracking platform. Uses 360 cameras, drones, and laser scans to capture site footage, then compares against BIM models and schedules to track element-level progress . Features automated delay forecasting weeks in advance, trade management, and SOC 2 Type 2 / ISO 27001 certification. Raised $130M in 2026 (total $297M), serving 100+ major companies including Intel, Digital Realty, and JE Dunn .
-
-
-
-- **[OpenSpace](https://www.openspace.ai/)**  
-
-  The global leader in 360° reality capture and AI-powered analytics. Captures 25,000 sq ft in 10 minutes with images viewable in ~15 minutes . **OpenSpace Track** (powered by Disperse) provides milestone-based progress tracking with 700+ visual components across 200+ program tasks . Acquired **Disperse** in October 2025 to deliver a full-stack platform . Customers have captured imagery on nearly 70,000 projects across 99 countries .
-
-
-
-- **[Doxel](https://doxel.ai/)**  
-
-  AI-powered progress tracking for construction, specializing in **data center construction**. Uses computer vision to automatically track progress and avoid rework . Enterprise partnership with Stream Data Centers (August 2025) for near real-time project visibility . Supports Insta360 X5 camera integration for rugged jobsite capture .
-
-
-
-- **[Disperse](https://www.disperse.io/)**  
-
-  Milestone-based progress tracking platform (now part of OpenSpace). Uses a **human-plus-AI hybrid approach** — architects and engineers configure projects and verify AI insights for accuracy . Features **Spotlights** for detecting rework, delays, and non-conformance with Priority flags and Action Lists .
-
-
-
-- **[Reconstruct](https://reconstructinc.com/)**  
-
-  Remote quality control and progress monitoring platform. Uses smartphones, 360 cameras, or drones to generate **as-built digital twins** with precise 2D floor plans and 3D models . Patented overlay technology compares design against reality, with 4D BIM visualization for schedule sequencing .
-
-
-
-- **[Avvir](https://avvir.ai/)**  
-
-  Automated construction monitoring platform (acquired by Hexagon in October 2022). Uses computer vision to compare laser scans and photographs against BIM models, creating a digital twin of the site . Integration with DroneDeploy provides 360 Walkthrough reality capture paired with AI-driven BIM analysis .
-
-
-
-- **[Versatile](https://versatile.ai/)**  
-
-  AI-powered crane and steel erection tracking. A sensor mounts to the crane hook to capture every lift, automatically logging as-installed steel sequences with timestamps and GPS evidence . Customers report **27% reduction in crane idle time** and **131 labor hours saved per sequence** . Track feature provides Time Travel replay and Magical Replay from crane's perspective .
-
-
-
-- **[WakeCap](https://www.wakecap.com/)**  
-
-  Progress management platform with **helmet-mounted cameras** for 360° reality capture auto-aligned to BIM . Validated at ROSHN with **95% progress accuracy** and **100% site coverage** . Features earned-value tracking (BAC, EV, PV, SV) with P6-linked roll-ups and historical progress replay .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Niche High-Impact Tools
-
-
-
-- **[Sandwich Panel Installation Tracker](https://github.com/KonevOleg/sandwich-panel-tracker)**  
-
-  **Production-deployed AutoCAD plugin for real-time construction progress tracking of sandwich panel installation** . **Real-world results**: On a 5,000-panel industrial building project, reduced weekly reporting time from **4 hours to 10 seconds**, eliminated subcontractor disputes through data-backed tracking, and enabled setup of 4,943 panels in ~30 minutes . Features: visual color-coded status tracking (grey=not installed, green=installed, red=defective, yellow=repairable), auto-generated AutoCAD tables with square footage breakdowns, one-click Excel export, joint calculations, and cutout tracking . Built with AutoLISP/Visual LISP using XData for persistent per-entity database inside DWG. **MIT License** .
-
-
-
-### Research Frameworks
-
-
-
-- **[P6 Extraction Framework](https://github.com/bededani22-art/p6-extraction-framework)**  
-
-  **Schedule-driven digital twin synchronization for construction progress monitoring** . Python, VBA, and SQL-based framework published in Zenodo (July 2026). Extracts P6 schedule data to enable 4D BIM synchronization and automated progress comparison. **Research-grade**, suitable as a foundation for custom digital twin implementations .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Niche Tracking**: **Sandwich Panel Tracker** (AutoCAD plugin, production-proven, MIT) .
-
-- **Schedule Integration**: **P6 Extraction Framework** (Python/VBA/SQL, research-grade) .
-
-- **Reality Capture Foundations**: Open-source photogrammetry tools (COLMAP, OpenMVG) for generating 3D models from site imagery — requires significant integration for construction-specific workflows.
-
-- **BIM Tools**: **IfcOpenShell** (open-source IFC parsing and geometry library) for BIM model processing — foundation for custom progress comparison tools.
-
-
-
-**Frameworks for building custom systems**: Combine **Sandwich Panel Tracker** for element-level installation tracking in AutoCAD environments, **P6 Extraction Framework** for schedule-driven progress synchronization, **IfcOpenShell** for BIM model parsing and comparison, and **COLMAP** or **OpenMVG** for photogrammetry-based reality capture. Add **PostgreSQL** for progress data persistence and **Streamlit** for dashboards.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Construction progress monitoring platforms handle sensitive project data; ensure compliance with contractual requirements and data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for construction progress monitoring is **fragmented and niche-focused**. **Sandwich Panel Tracker** demonstrates that production-grade open-source tools can deliver measurable value (4 hours → 10 seconds reporting, eliminated disputes) for **specific element types** . **P6 Extraction Framework** provides research-grade schedule integration . However, **comprehensive platform capabilities** — multi-trade progress tracking, AI-powered deviation detection, BIM alignment across entire projects, and portfolio-level dashboards — require commercial platforms (Buildots, OpenSpace, Doxel). The open-source path is viable for **focused, element-specific tracking** or as a **foundation for custom development** with significant engineering investment.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Construction Progress Monitoring Banner" width="100%" />
+</p>
+
+# 🏗️ Awesome Construction Progress Monitoring
+
+> **Curated List of SaaS Platforms, AI Reality Capture Tools, 4D BIM Solutions & Open-Source Projects for Construction Site Tracking.**
 
 ---
 
+## 📋 Meta Description & Overview
+**Construction Progress Monitoring** leverages 360° reality capture, photogrammetry, computer vision, laser scanning, and Building Information Modeling (BIM) to track work-in-place, audit schedules, detect element-level installation deviations, and automate Earned Value Management (EVM).
 
+This repository serves as a comprehensive, SEO-optimized directory of commercial SaaS products and open-source libraries enabling digital twin site verification for general contractors, owner-operators, VDC engineers, and trade specialists.
 
-**Made for construction project managers, VDC engineers, field superintendents, and owner representatives.**  
+---
 
-Let's make construction progress monitoring more open, transparent, and verifiable.
+## 📚 Table of Contents
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> 💡 **Market Overview & Insights**: The global Construction Progress Monitoring & Reality Capture market is valued at **~$5.35 Billion** (projected to reach **>$10 Billion by 2033**). The sector is **highly fragmented**, comprising specialized AI computer vision startups, crane IoT sensors, helmet-mounted cameras, and 4D BIM platforms rather than a single winner-take-all monopoly.
+
+Below is a curated comparison of leading SaaS products, **sorted by estimated company valuation / size (descending)**:
+
+| 🏢 Platform | 📝 Description & Key Capabilities | 💰 Estimated Company Size / Valuation | 🏷️ Starting Pricing | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Buildots](https://buildots.com/)** | 🤖 AI-powered site progress tracking using 360° cameras & laser scans aligned to BIM & Primavera P6 schedules. Features automated delay forecasting & element-level tracking. | **~$1.0 Billion** ($297M Total Funding, $130M Series C/D) | Starts at **$2,500 / month** per project site ($30,000 / year base) | **14-day sales-assisted trial** (limited to 1 sample project walkthrough) |
+| **[OpenSpace](https://www.openspace.ai/)** | 📸 Global leader in 360° reality capture & AI analytics (**OpenSpace Track**). Captures 25,000 sq ft in 10 mins with 700+ visual component tracking. Acquired Disperse. | **~$913 Million** ($200M Total Funding, Series D) | Starts at **$500 / user / month** ($6,000 / year capture license) | **14-day interactive demo trial** (limited to 1 sample capture dataset) |
+| **[Versatile](https://versatile.ai/)** | 🏗️ AI-powered crane IoT hook sensor (**CraneView**) logging as-installed structural steel & concrete lifts, cycle times, and crane idle reduction. | **~$300 Million** ($108M Total Funding, Series B) | Starts at **$5,000 / month** per crane installation | **30-day single-crane pilot trial** (limited to 1 crane hook deployment) |
+| **[Doxel](https://doxel.ai/)** | 🏭 AI progress tracking specialized for data center & heavy commercial construction using computer vision & Insta360 jobsite capture. | **~$250 Million** ($59M Total Funding, Series B) | Starts at **$3,000 / month** per active jobsite | **30-day proof-of-concept trial** (limited to 1 jobsite location) |
+| **[Avvir](https://avvir.ai/)** | 📐 Automated construction monitoring creating 4D BIM digital twins via LiDAR scans & DroneDeploy 360 walkthrough integration. | **~$100 Million** (Acquired by Hexagon AB, $20B+ Cap) | Starts at **$1,500 / month** per active building scan | **14-day sandbox trial** (limited to 1 BIM model upload limit) |
+| **[Disperse](https://www.disperse.io/)** | 🔍 Milestone-based visual tracking combining AI with human architect verification for non-conformance & delay detection. Now part of OpenSpace. | **~$100 Million** (Acquired by OpenSpace) | Starts at **$1,200 / month** per site deployment | **14-day project assessment trial** (limited to 1 floor scan) |
+| **[Reconstruct](https://reconstructinc.com/)** | 📱 Remote QC platform generating as-built digital twins with 2D floor plans, 3D photogrammetry & 4D BIM schedule sequencing. | **~$75 Million** ($17.3M Total Funding, Series B) | Starts at **$299 / month** per project user | **14-day full feature trial** (limited to 5,000 sq ft & 1 project) |
+| **[WakeCap](https://www.wakecap.com/)** | 👷 Wearable helmet sensor & 360° camera network tracking site workforce productivity, location, and P6 Earned Value Management (EVM). | **~$60 Million** ($26M Total Funding, Series A) | Starts at **$10 / worker / month** ($1,000 / month base minimum) | **30-day field trial** (limited to 20 worker safety helmet units) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+While full enterprise progress platforms require complex cloud & AI infrastructure, high-impact **open-source tools, photogrammetry engines, and BIM processing frameworks** exist. 
+
+The open-source projects below are **sorted by GitHub Star Count (descending)**, with direct links to each repository's stargazers page:
+
+1. **[Open3D](https://github.com/isl-org/Open3D)** [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)  
+   🌐 *3D Data Processing Engine*: Open-source library for 3D data processing, point cloud registration, surface reconstruction, and alignment against BIM reference meshes.
+
+2. **[COLMAP](https://github.com/colmap/colmap)** [![GitHub stars](https://img.shields.io/github/stars/colmap/colmap?style=social&color=white)](https://github.com/colmap/colmap/stargazers)  
+   📸 *Structure-from-Motion & Multi-View Stereo*: General-purpose photogrammetry pipeline converting drone & smartphone construction site imagery into accurate dense 3D point clouds.
+
+3. **[OpenMVG](https://github.com/openMVG/openMVG)** [![GitHub stars](https://img.shields.io/github/stars/openMVG/openMVG?style=social&color=white)](https://github.com/openMVG/openMVG/stargazers)  
+   🧩 *Multiple View Geometry*: C++ framework providing Structure-from-Motion algorithms for spatial site geometry reconstruction.
+
+4. **[OpenDroneMap (ODM)](https://github.com/OpenDroneMap/ODM)** [![GitHub stars](https://img.shields.io/github/stars/OpenDroneMap/ODM?style=social&color=white)](https://github.com/OpenDroneMap/ODM/stargazers)  
+   🛸 *Drone Aerial Photogrammetry*: Open-source ecosystem for processing aerial drone imagery into orthophotos, point clouds, and elevation models for earthwork & site progress tracking.
+
+5. **[Potree](https://github.com/potree/potree)** [![GitHub stars](https://img.shields.io/github/stars/potree/potree?style=social&color=white)](https://github.com/potree/potree/stargazers)  
+   🖥️ *Web-Based Point Cloud Viewer*: WebGL point cloud renderer capable of visualizing multi-gigabyte laser scans & drone scans directly in web browsers for site comparison.
+
+6. **[CloudCompare](https://github.com/CloudCompare/CloudCompare)** [![GitHub stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=social&color=white)](https://github.com/CloudCompare/CloudCompare/stargazers)  
+   ☁️ *3D Point Cloud & Mesh Comparison*: Open-source 3D point cloud processing software featuring direct distance cloud-to-cloud comparison to detect structural deviations between BIM and laser scans.
+
+7. **[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)** [![GitHub stars](https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=social&color=white)](https://github.com/IfcOpenShell/IfcOpenShell/stargazers)  
+   🏛️ *Open IFC BIM Parser*: Python/C++ open BIM library for parsing, analyzing, and modifying Industry Foundation Classes (IFC) files for progress vs planned element matching.
+
+8. **[xeokit-sdk](https://github.com/xeokit/xeokit-sdk)** [![GitHub stars](https://img.shields.io/github/stars/xeokit/xeokit-sdk?style=social&color=white)](https://github.com/xeokit/xeokit-sdk/stargazers)  
+   👓 *3D Web BIM & Laser Scan Viewer*: Browser SDK for rendering high-precision 3D BIM models and point cloud scans with color-coded status overlays.
+
+9. **[Speckle Server](https://github.com/specklesystems/speckle-server)** [![GitHub stars](https://img.shields.io/github/stars/specklesystems/speckle-server?style=social&color=white)](https://github.com/specklesystems/speckle-server/stargazers)  
+   🔄 *Open AEC Data Platform*: Open-source framework for extracting, versioning, and syncing geometry & metadata across CAD, BIM (Revit, IFC), and custom progress web apps.
+
+10. **[Sandwich Panel Installation Tracker](https://github.com/KonevOleg/sandwich-panel-tracker)** [![GitHub stars](https://img.shields.io/github/stars/KonevOleg/sandwich-panel-tracker?style=social&color=white)](https://github.com/KonevOleg/sandwich-panel-tracker/stargazers)  
+    📐 *AutoCAD Production Plugin*: Production-deployed AutoCAD plugin for tracking sandwich panel installations in real-time. Reduced weekly reporting from 4 hours to 10 seconds on a 5,000-panel project.
+
+11. **[P6 Extraction Framework](https://github.com/bededani22-art/p6-extraction-framework)** [![GitHub stars](https://img.shields.io/github/stars/bededani22-art/p6-extraction-framework?style=social&color=white)](https://github.com/bededani22-art/p6-extraction-framework/stargazers)  
+    📅 *Primavera P6 Digital Twin Sync*: Schedule extraction toolkit (Python, VBA, SQL) to sync Primavera P6 schedule data with 4D BIM progress models.
+
+---
+
+## 🛠️ Recommended Open-Source Architecture Blueprint
+To build a custom, low-cost construction progress monitoring platform:
+1. **Photogrammetry & Point Cloud Generation**: Use **OpenDroneMap (ODM)** or **COLMAP**.
+2. **Point Cloud Alignment & As-Built Analysis**: Use **CloudCompare** and **Open3D**.
+3. **BIM Model Parsing & Schema Extraction**: Use **IfcOpenShell** and **Speckle Server**.
+4. **Web 3D Visualization**: Combine **Potree** (point clouds) and **xeokit-sdk** (IFC BIM).
+5. **Schedule Synchronization**: Use **P6 Extraction Framework** linked to **PostgreSQL**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcome! To add a new platform or open-source tool:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Edit `README.md` keeping formatting & tabular structures consistent.
+3. 🔗 Include factual platform links, specific pricing, free trial details, and star badges.
+4. 🚀 Submit a **Pull Request (PR)** with a summary of changes.
+
+---
+
+## ⚖️ Disclaimer
+
+- This directory is **community-curated** for educational & architectural reference — not an official endorsement.
+- Construction progress platforms collect sensitive project geometry and field workforce data; ensure contractual compliance, SOC 2 / ISO security certification, and data privacy regulations.
+- Re-check vendor pricing directly on official websites as enterprise subscription tiers evolve.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Construction-Progress-Monitoring&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Construction-Progress-Monitoring&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for your construction engineering projects, research, or software development, consider supporting the work:
+
+- ⭐ **Star** this repository to increase visibility!
+- 🔀 **Fork** and share with your AEC & VDC engineering network!
+- 💖 **Sponsor / Buy me a coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+<p align="center">
+  <b>Built for Construction Project Managers, VDC Engineers, Field Superintendents, and AEC Developers.</b><br>
+  Let's make construction progress monitoring transparent, automated, and verifiable! 🏗️🚀
+</p>

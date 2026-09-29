@@ -56,39 +56,39 @@ Below is a curated comparison of leading SaaS products, **sorted by estimated co
 
 While full enterprise progress platforms require complex cloud & AI infrastructure, high-impact **open-source tools, photogrammetry engines, and BIM processing frameworks** exist. 
 
-The open-source projects below are **sorted by GitHub Star Count (descending)**, with direct links to each repository's stargazers page:
+The open-source projects below are **sorted by GitHub Stars_Count (descending)**, with direct links to each repository's stargazers page:
 
-1. **[Open3D](https://github.com/isl-org/Open3D)** [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)  
+1. **[Open3D](https://github.com/isl-org/Open3D)** [![GitHub_Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)  
    🌐 *3D Data Processing Engine*: Open-source library for 3D data processing, point cloud registration, surface reconstruction, and alignment against BIM reference meshes.
 
-2. **[COLMAP](https://github.com/colmap/colmap)** [![GitHub stars](https://img.shields.io/github/stars/colmap/colmap?style=social&color=white)](https://github.com/colmap/colmap/stargazers)  
+2. **[COLMAP](https://github.com/colmap/colmap)** [![GitHub_Stars](https://img.shields.io/github/stars/colmap/colmap?style=social&color=white)](https://github.com/colmap/colmap/stargazers)  
    📸 *Structure-from-Motion & Multi-View Stereo*: General-purpose photogrammetry pipeline converting drone & smartphone construction site imagery into accurate dense 3D point clouds.
 
-3. **[OpenMVG](https://github.com/openMVG/openMVG)** [![GitHub stars](https://img.shields.io/github/stars/openMVG/openMVG?style=social&color=white)](https://github.com/openMVG/openMVG/stargazers)  
+3. **[OpenMVG](https://github.com/openMVG/openMVG)** [![GitHub_Stars](https://img.shields.io/github/stars/openMVG/openMVG?style=social&color=white)](https://github.com/openMVG/openMVG/stargazers)  
    🧩 *Multiple View Geometry*: C++ framework providing Structure-from-Motion algorithms for spatial site geometry reconstruction.
 
-4. **[OpenDroneMap (ODM)](https://github.com/OpenDroneMap/ODM)** [![GitHub stars](https://img.shields.io/github/stars/OpenDroneMap/ODM?style=social&color=white)](https://github.com/OpenDroneMap/ODM/stargazers)  
+4. **[OpenDroneMap (ODM)](https://github.com/OpenDroneMap/ODM)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenDroneMap/ODM?style=social&color=white)](https://github.com/OpenDroneMap/ODM/stargazers)  
    🛸 *Drone Aerial Photogrammetry*: Open-source ecosystem for processing aerial drone imagery into orthophotos, point clouds, and elevation models for earthwork & site progress tracking.
 
-5. **[Potree](https://github.com/potree/potree)** [![GitHub stars](https://img.shields.io/github/stars/potree/potree?style=social&color=white)](https://github.com/potree/potree/stargazers)  
+5. **[Potree](https://github.com/potree/potree)** [![GitHub_Stars](https://img.shields.io/github/stars/potree/potree?style=social&color=white)](https://github.com/potree/potree/stargazers)  
    🖥️ *Web-Based Point Cloud Viewer*: WebGL point cloud renderer capable of visualizing multi-gigabyte laser scans & drone scans directly in web browsers for site comparison.
 
-6. **[CloudCompare](https://github.com/CloudCompare/CloudCompare)** [![GitHub stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=social&color=white)](https://github.com/CloudCompare/CloudCompare/stargazers)  
+6. **[CloudCompare](https://github.com/CloudCompare/CloudCompare)** [![GitHub_Stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=social&color=white)](https://github.com/CloudCompare/CloudCompare/stargazers)  
    ☁️ *3D Point Cloud & Mesh Comparison*: Open-source 3D point cloud processing software featuring direct distance cloud-to-cloud comparison to detect structural deviations between BIM and laser scans.
 
-7. **[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)** [![GitHub stars](https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=social&color=white)](https://github.com/IfcOpenShell/IfcOpenShell/stargazers)  
+7. **[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)** [![GitHub_Stars](https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=social&color=white)](https://github.com/IfcOpenShell/IfcOpenShell/stargazers)  
    🏛️ *Open IFC BIM Parser*: Python/C++ open BIM library for parsing, analyzing, and modifying Industry Foundation Classes (IFC) files for progress vs planned element matching.
 
-8. **[xeokit-sdk](https://github.com/xeokit/xeokit-sdk)** [![GitHub stars](https://img.shields.io/github/stars/xeokit/xeokit-sdk?style=social&color=white)](https://github.com/xeokit/xeokit-sdk/stargazers)  
+8. **[xeokit-sdk](https://github.com/xeokit/xeokit-sdk)** [![GitHub_Stars](https://img.shields.io/github/stars/xeokit/xeokit-sdk?style=social&color=white)](https://github.com/xeokit/xeokit-sdk/stargazers)  
    👓 *3D Web BIM & Laser Scan Viewer*: Browser SDK for rendering high-precision 3D BIM models and point cloud scans with color-coded status overlays.
 
-9. **[Speckle Server](https://github.com/specklesystems/speckle-server)** [![GitHub stars](https://img.shields.io/github/stars/specklesystems/speckle-server?style=social&color=white)](https://github.com/specklesystems/speckle-server/stargazers)  
+9. **[Speckle Server](https://github.com/specklesystems/speckle-server)** [![GitHub_Stars](https://img.shields.io/github/stars/specklesystems/speckle-server?style=social&color=white)](https://github.com/specklesystems/speckle-server/stargazers)  
    🔄 *Open AEC Data Platform*: Open-source framework for extracting, versioning, and syncing geometry & metadata across CAD, BIM (Revit, IFC), and custom progress web apps.
 
-10. **[Sandwich Panel Installation Tracker](https://github.com/KonevOleg/sandwich-panel-tracker)** [![GitHub stars](https://img.shields.io/github/stars/KonevOleg/sandwich-panel-tracker?style=social&color=white)](https://github.com/KonevOleg/sandwich-panel-tracker/stargazers)  
+10. **[Sandwich Panel Installation Tracker](https://github.com/KonevOleg/sandwich-panel-tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/KonevOleg/sandwich-panel-tracker?style=social&color=white)](https://github.com/KonevOleg/sandwich-panel-tracker/stargazers)  
     📐 *AutoCAD Production Plugin*: Production-deployed AutoCAD plugin for tracking sandwich panel installations in real-time. Reduced weekly reporting from 4 hours to 10 seconds on a 5,000-panel project.
 
-11. **[P6 Extraction Framework](https://github.com/bededani22-art/p6-extraction-framework)** [![GitHub stars](https://img.shields.io/github/stars/bededani22-art/p6-extraction-framework?style=social&color=white)](https://github.com/bededani22-art/p6-extraction-framework/stargazers)  
+11. **[P6 Extraction Framework](https://github.com/bededani22-art/p6-extraction-framework)** [![GitHub_Stars](https://img.shields.io/github/stars/bededani22-art/p6-extraction-framework?style=social&color=white)](https://github.com/bededani22-art/p6-extraction-framework/stargazers)  
     📅 *Primavera P6 Digital Twin Sync*: Schedule extraction toolkit (Python, VBA, SQL) to sync Primavera P6 schedule data with 4D BIM progress models.
 
 ---
@@ -109,7 +109,7 @@ Contributions are highly welcome! To add a new platform or open-source tool:
 
 1. 🍴 **Fork** this repository.
 2. 📝 Edit `README.md` keeping formatting & tabular structures consistent.
-3. 🔗 Include factual platform links, specific pricing, free trial details, and star badges.
+3. 🔗 Include factual platform links, specific pricing, free trial details, and Stars_Badges.
 4. 🚀 Submit a **Pull Request (PR)** with a summary of changes.
 
 ---
